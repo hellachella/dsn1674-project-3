@@ -5,3 +5,18 @@ html {
 *,*::before, *::after {
 	box-sizing: inherit;
 }
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/*Header*/
+
+header{
+	background-color: yellow;
+}
+header img{
+	width: 8em;
+}
+
+/*Navigation*/
