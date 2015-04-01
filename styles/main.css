@@ -8,15 +8,24 @@ html {
 
 body{
 	font-family: 'Lato', sans-serif;
+	margin: 0;
 }
 
 /*Header*/
 
 header{
-	background-color: yellow;
+	background-color: #cc9900;
 }
 header img{
 	width: 8em;
+}
+
+/*subheaders*/
+
+.headline{
+	text-align: center;
+	background: #000;
+	color: #fff;
 }
 
 /*Navigation*/
