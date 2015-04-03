@@ -72,9 +72,7 @@ margin: 0;
 display: block;
 }
 
-.events-info h3{
-	margin-bottom: 10px;
-	clear: left
+
 }
 .events h4{
 	margin: 0;
@@ -91,13 +89,13 @@ display: block;
 	float: left;
 }
 
-.karaoke{
+.all-events{
 	margin-left: 10px;
 	float: left;
 	width: 70%;
 }
 
-.karaoke p{
+.all-events p{
 	width: 70%;
 }
 
