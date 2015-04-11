@@ -7,95 +7,21 @@ html {
 }
 
 body{
-	
+	font-family: 'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
-	
+	background-color: green;
 }
 
-.banner{
 
-	
-    display: block;
-}
-
-.banner p{
-	text-align: right;
-	position: absolute;
-	bottom: 1em;
-	width: 80%;
-	background-color: rgba(255,255,255,.8);
-	padding: 5%;
-	font-size: 2em;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
-}
-
-.banner img{
-	width: 100%;
-	display: block;
-}
-
-/*Header*/
-
-header{
-	background-color: #cc9900;
-}
-header img{
-	width: 8em;
-}
-
-/*subheaders*/
-
-.headline{
-	text-align: center;
-	background: #000;
-	color: #fff;
-	margin: 0;
-}
-
-.headline h2{
-	margin:0;
-}
+/*Menu*/
 
 /*Events*/
 
-.events{
-	overflow: hidden;
-	box-sizing: border-box;
-}
+/*About*/
 
-.events-info h2{
-background-color: yellow;
-margin: 0;
-display: block;
-}
+/*Footer*/
 
 
-}
-.events h4{
-	margin: 0;
 
-	font-style: oblique;
-}
 
-.events h3{
-	margin: 0;
-}
-
-.events img{
-	width: 30%;
-	float: left;
-}
-
-.all-events{
-	margin-left: 10px;
-	float: left;
-	width: 70%;
-}
-
-.all-events p{
-	width: 70%;
-}
-
-/*Navigation*/

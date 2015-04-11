@@ -6,72 +6,90 @@
 	<title>Shanghai Restaurant</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="styles/main.css" rel="stylesheet">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+   <style>
+header{
+	position: relative;
+}
+   nav ul, .hours ul{
+   	list-style-type: none;
+   	padding: 0;
+   	width: 100%;
+   }
+
+	.hours ul{
+			text-align: center;
+			background-color: red;
+}
+   .smallcaps{
+				font-variant: small-caps;
+		}
+
+
+	.toggle{
+			float: right;
+			width: 30%;
+			background-color: #232021;
+			position: absolute;
+			left: 70%;
+			color: #FAF0E5;
+			text-transform: uppercase;
+			text-align: right;
+	}
+
+	.toggle li{
+			padding: 5px;
+			width: 100%;
+			margin: 0;
+	}
+
+	.toggle li a:hover{
+		background-color: #54524b;
+	}
+
+   </style>
+
 </head>
 
 <body>
 
 <header>
-<img src="images/shanghailogo.svg" alt="Shanghai Logo">
-</header>
+	<nav><!--hide.float.etc-->
+		<div class="toggle">
+			<ul>
+				<li><a>menu</a></li>
+				<li><a>Events</a></li>
+				<li><a>about</a></li>
+				<li><a>hours</a></li>
+				<li><a>contact</a></li>
+				<li><a>location</a></li>
+			</ul>
+		</div>
+	</nav>
+
 
 <div class="banner">
-<img src="images/img_3490.jpg" alt="China Doll Banner">
-<p>Spread your wings and sing it, Baby!</p>
+	<h2>Spread your wings and sing it, baby!</h2><!--text-transform:uppercase-->
 </div>
 
-<!--Events-->
-<div class="events">
+	<h1>The Shanghai</h1>
+</header>
 
-	<div class="headline">
-		<h2>Events</h2>
-	</div>
-
-	<div class="events-info">
-		<h2>Weekly Events</h2>
-		<h4>With your Hostess, China Doll</h4>
-	</div>
-
-	<div class="weekly-events">
-		<img src="images/placeholder-karaoke.jpg" alt="">
-
-		<div class="all-events">
-			<h3>Karaoke</h3>
-			<h4>Saturday Nights</h4>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adip iscing
-					elit. Nullam nec erat quam. Vivamus sit amet volutpat risus.
-					Cras hendrerit, eros non auctor.
-			</p>
-		</div><!--all events-->
-
-	</div><!--weekly-->
-
-</div><!--events-->
-
-<!--Menu-->
-<div class="headline">
-<h2>Menu</h2>
-</div>
-
-<!--Hours-->
-<div class="headline">
-<h2>Hours</h2>
-</div>
-
-<!--About-->
-<div class="headline">
-<h2>About</h2>
-</div>
-
-<!--Contact-->
-<div class="headline">
-<h2>Contact</h2>
-</div>
+<div class="hours">
+<ul>
+<li>Mon, CLOSED</li>
+<li>Tues-Wed, 11:30<span class="smallcaps">am</span>-10<span class="smallcaps">pm</span></li>
+<li>Thurs, 4:30<span class="smallcaps">pm</span>-10<span class="smallcaps">pm</span></li>
+<li>Fri, 11:30<span class="smallcaps">am</span>-10<span class="smallcaps">pm</span></li>
+<li>Sat, 4:30<span class="smallcaps">pm</span>-2<span class="smallcaps">am</span></li>
+<li>Sun, 4:30<span class="smallcaps">pm</span>-10<span class="smallcaps">pm</span></li>
+</ul>
+</div><!--hours-->
 
 
-<!--Footer-->
-
+<footer>
+</footer>
 
 </body>
 </html>
