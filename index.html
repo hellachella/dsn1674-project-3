@@ -9,9 +9,11 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 
    <style>
-header{
+
+	header{
 	position: relative;
-}
+	}
+
    nav ul, .hours ul{
    	list-style-type: none;
    	padding: 0;
@@ -21,11 +23,10 @@ header{
 	.hours ul{
 			text-align: center;
 			background-color: red;
-}
+	}
    .smallcaps{
 				font-variant: small-caps;
 		}
-
 
 	.toggle{
 			float: right;
@@ -36,16 +37,63 @@ header{
 			color: #FAF0E5;
 			text-transform: uppercase;
 			text-align: right;
+			top: -20px;
+			padding: 0;
+			border-bottom-left-radius: 10px;
+
 	}
 
 	.toggle li{
-			padding: 5px;
+			padding: 5px 10%;
 			width: 100%;
 			margin: 0;
 	}
 
-	.toggle li a:hover{
+	.toggle ul{
+		width: 100%;
+		margin: 0;
+	}
+
+	.toggle li:hover{
 		background-color: #54524b;
+
+	}
+	.toggle .bottom-list-item{
+			border-bottom-left-radius: 10px;
+		}
+
+	.icon-x{
+		width: 30px;
+		height: 30px;
+		float: left;
+		position: relative;
+	}
+
+	 .line-1{
+		height: 3px;
+		width: 30px;
+		border-radius: 50px;
+		-webkit-transform: rotate(-45deg);
+   -moz-transform:    rotate(-45deg);
+   -ms-transform:     rotate(-45deg);
+   -o-transform:      rotate(-45deg);
+		background: #faf0e5;
+		position: absolute;
+		top: 15px
+	}
+
+		 .line-2{
+		height: 3px;
+		width: 30px;
+		border-radius: 50px;
+		-webkit-transform: rotate(45deg);
+	   -moz-transform:  rotate(45deg);
+	   -ms-transform:   rotate(45deg);
+	   -o-transform:    rotate(45deg);
+		background: #faf0e5;
+		position: absolute;
+		top: 15px;
+
 	}
 
    </style>
@@ -54,16 +102,31 @@ header{
 
 <body>
 
+
+
+</div>
+
 <header>
 	<nav><!--hide.float.etc-->
+
 		<div class="toggle">
+			<div class="icon-x">
+
+				<div class="line-1">
+				</div>
+
+				<div class="line-2">
+				</div>
+
+			</div><!--icon-x-->
+
 			<ul>
 				<li><a>menu</a></li>
 				<li><a>Events</a></li>
 				<li><a>about</a></li>
 				<li><a>hours</a></li>
 				<li><a>contact</a></li>
-				<li><a>location</a></li>
+				<li class="bottom-list-item"><a>location</a></li>
 			</ul>
 		</div>
 	</nav>
