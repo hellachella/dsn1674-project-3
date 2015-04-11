@@ -6,30 +6,27 @@
 	<title>Shanghai Restaurant</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="styles/main.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="scripts/js.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Risque' rel='stylesheet' type='text/css'>
-   <style>
 
 
-		header{
-		position: relative;
-		}
-
+  <style>
 		.banner{
 			background-image: url(images/china-banner.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
-
-
-
+			display: block;
 		}
 
 		header h2{
 			color: white;
-			padding: 7em 20% 0;
+			padding: 10%;
 			width: 100%;
 			text-align: center;
 			height: 348px;
+			font-size:3em;
 			font-weight: 500;
 			text-transform: uppercase;
 			display: inline-block;
@@ -41,6 +38,10 @@
 			background-color: #ea3123;
 			margin: 0;
 			display: block;
+			font-size: 3em;
+			line-height: 1.5em;
+			color: white;
+			font-weight: normal;
 		}
 
    nav ul, .hours ul{
@@ -60,22 +61,34 @@
 
 	.hours ul{
 			text-align: center;
+			line-height:2em;
+			font-weight: 100;
+			padding: 30px;
 	}
 
 	.address{
 		width: 100%;
 		text-align: center;
-		font-size: 1.5em;
+		font-size: 1.2em;
 		line-height: 1.5em;
 	}
 
    .smallcaps{
-				font-variant: small-caps;
+		font-variant: small-caps;
 		}
 
+				header{
+		position: relative;
+		overflow: hidden;
+		}
+
+nav{
+	display: none;
+}
+
+
 	.toggle{
-		display: none;
-			width: 50%;
+			width: 100%;
 			float: right;
 			background-color: #232021;
 			left: 300px;
@@ -85,15 +98,17 @@
 			top: -20px;
 			padding: 0;
 			border-bottom-left-radius: 10px;
-
+			top:0px;
+			right: 0px;
+			display: block;
 	}
 
 	.toggle li{
 		font-size: 2em;
 		line-height: 1.5em;
-			padding: 5px 10%;
-			width: 100%;
-			margin: 0;
+		padding: 5px 10%;
+		width: 100%;
+		margin: 0;
 	}
 
 	.toggle a{
@@ -108,43 +123,51 @@
 
 	.toggle li:hover{
 		background-color: #54524b;
-
 	}
+
 	.toggle .bottom-list-item{
 			border-bottom-left-radius: 10px;
 		}
 
-	.icon-x{
-		width: 33px;
-		height: 35px;
-		float: left;
-		position: relative;
-	}
+		.icon-hamburger{
+			width: 50px;
+			overflow: hidden;
+			float: right;
+			padding: 3px;
+			margin: 5px;
+		}
 
-	 .line-1{
-		height: 3px;
-		width: 33px;
-		border-radius: 50px;
-		-webkit-transform: rotate(-45deg);
-   -moz-transform:    rotate(-45deg);
-   -ms-transform:     rotate(-45deg);
-   -o-transform:      rotate(-45deg);
-		background: #faf0e5;
-		position: absolute;
-		top: 15px
-	}
+		.icon-hamburger:hover{
+			cursor: pointer;
+		}
 
-		 .line-2{
-		height: 3px;
-		width: 33px;
-		border-radius: 50px;
-		-webkit-transform: rotate(45deg);
-	   -moz-transform:  rotate(45deg);
-	   -ms-transform:   rotate(45deg);
-	   -o-transform:    rotate(45deg);
-		background: #faf0e5;
-		position: absolute;
-		top: 15px;
+
+		.l1{
+			background-color: white;
+			width: 40px;
+			height: 5px;
+			margin: 10px auto;
+			border-radius: 10px
+
+		}
+
+		.l2{
+			background-color: white;
+			width: 40px;
+			height: 5px;
+			margin: 10px auto;
+			border-radius: 10px
+		}
+
+		.l3{
+			background-color: white;
+			width: 40px;
+			height: 5px;
+			margin: 10px auto;
+			border-radius: 10px
+		}
+
+
 
 	}
 
@@ -152,43 +175,51 @@
 
 </head>
 
+
 <body>
-
-
 
 </div>
 
 <header>
-	<nav><!--hide.float.etc-->
 
-		<div class="toggle">
-			<div class="icon-x">
+<div class="icon-hamburger" id="hamburger">
+		<div class="l1"></div>
+		<div class="l2"></div>
+		<div class="l3"></div>
+	</div>
 
-				<div class="line-1">
-				</div>
-
-				<div class="line-2">
-				</div>
-
-			</div><!--icon-x-->
-
-			<ul>
-				<li><a href="#" alt="">menu</a></li>
-				<li><a href="#" alt="">Events</a></li>
-				<li><a href="#" alt="">about</a></li>
-				<li><a href="#" alt="">hours</a></li>
-				<li><a href="#" alt="">contact</a></li>
-				<li class="bottom-list-item"><a href="#" alt="">location</a></li>
-			</ul>
-		</div>
-	</nav>
+<h1>The Shanghai</h1>
 
 
-<div class="banner">
+<nav id="nav"><!--hide.float.etc-->
+
+	<div class="toggle" id="toggle">
+
+
+
+		<ul>
+			<li><a href="#" alt="">menu</a></li>
+			<li><a href="#" alt="">Events</a></li>
+			<li><a href="#" alt="">about</a></li>
+			<li><a href="#" alt="">hours</a></li>
+			<li><a href="#" alt="">contact</a></li>
+			<li class="bottom-list-item"><a href="#" alt="">location</a></li>
+		</ul>
+
+	</div><!--toggle-->
+</nav>
+<div class="banner" id="banner">
+
+
+
+
+
+
 	<h2>Spread your wings and sing it, baby!</h2><!--text-transform:uppercase-->
-</div>
 
-	<h1>The Shanghai</h1>
+
+
+</div><!--banner-->
 </header>
 
 
