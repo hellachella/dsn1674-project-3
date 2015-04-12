@@ -2,7 +2,7 @@
 
 $(window).on('load', function() {
 
-	$('#hamburger, #iconx').on('click', function(event) {
+	$('#hamburger').on('click', function(event) {
 		event.preventDefault();
 
 		$('#banner').fadeToggle(0);
