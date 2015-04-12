@@ -17,6 +17,30 @@ body{
 
 /*Menu*/
 
+.shang-menu{
+	line-height: 1.5em;
+	background-image: url("../images/food.jpg");
+	background-size: 100% auto;
+	margin: 0;
+	display: block;
+}
+
+.shang-menu h2{
+	background-color: rgba(255,255,255,0.3);
+	padding: 10px 0 10px 15px;
+	font-family: 'Risque', 'Open-Sans', sans-serif;
+	margin: 0;
+	color: white;
+	line-height: 1.5em;
+	font-size: 2em;
+}
+
+.shang-menu p{
+
+	padding: 15em 15px 15px; 0;
+	margin: 0;
+}
+
 /*Events*/
 
 /*About*/
