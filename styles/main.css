@@ -8,17 +8,26 @@ html {
 
 body{
 	font-family: 'Open Sans', sans-serif;
+		line-height: 1.5em;
 	font-size: 1em;
 	margin: 0;
 	padding: 0;
 	background-color: cream;
 }
 
+a{
+	text-decoration:none;
+}
+
+.center{
+	width: 100%;
+	text-align: center;
+}
 
 /*Menu*/
 
 .shang-menu{
-	line-height: 1.5em;
+
 	background-image: url("../images/food.jpg");
 	background-size: 100% auto;
 	margin: 0;
@@ -47,6 +56,26 @@ blockquote{
 	font-style: oblique;
 }
 
+.takeout-and-delivery{
+	padding: 15px;
+
+}
+
+.delivery{
+	color: #ea3123;
+	margin: 0;
+	padding-top: 1em;
+}
+
+.takeout-and-delivery a{
+	color: #f7992e;
+}
+
+.takeout-and-delivery p{
+	margin: 0;
+}
+
+
 /*Events*/
 
 /*About*/
@@ -56,3 +85,4 @@ blockquote{
 
 
 
+/*Images taken from Flikr, and are licensed for free, creative use */

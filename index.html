@@ -26,6 +26,7 @@
 
 		header h2{
 			color: white;
+			line-height: 1.5em;
 			padding: 10%;
 			width: 100%;
 			text-align: center;
@@ -201,9 +202,6 @@ nav{
 			border-radius: 10px
 		}
 
-
-
-
 	}
 
    </style>
@@ -211,14 +209,11 @@ nav{
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="scripts/js.js"></script>
-
-
 </head>
 
 
 <body>
 
-</div>
 
 <header>
 
@@ -259,7 +254,7 @@ nav{
 
 <main>
 
-<div class="hours">
+<div class="hours" id="hours">
 <ul>
 <li>Mon, CLOSED</li>
 <li>Tues-Wed, 11:30<span class="smallcaps">am</span>-10<span class="smallcaps">pm</span></li>
@@ -292,9 +287,19 @@ nav{
 	tellus varius.
 	</p>
 
-	</div>
 
 </div><!--shang menu-->
+
+<div class="takeout-and-delivery">
+	<h2 class="delivery">Delivery Service</h2>
+	<p>Available Tues-Sun starting from 4:30<span class="smallcaps">pm</span> until closing or by special request. (Closed Mondays)</p>
+
+	<h2 class="delivery">Take-out</h2>
+	<p>Available during all business <a href="#hours">hours</a></p>
+</div>
+
+<h2 class="delivery center">613 233 4001</h2>
+
 
 <footer>
 </footer>
