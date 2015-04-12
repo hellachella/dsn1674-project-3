@@ -38,7 +38,6 @@
 
 
 		h1{
-
 			font-family: 'Risque', "Open-Sans", sans-serif;
 			text-align: center;
 			background-color: #ea3123;
@@ -49,6 +48,31 @@
 			color: white;
 			font-weight: normal;
 		}
+
+		@media screen and (max-width: 299px){
+
+			h1{
+				font-size: 1.5em;
+				line-height: 2em;
+			}
+
+			header h2{
+				font-size: 2em;
+				line-height: 2em;
+			}
+
+			header{
+				overflow: hidden;
+			}
+
+			.icon-hamburger{
+				position: absolute;
+				width: 100%;
+				right: 0px;
+				top: 2.5em;
+			}
+		}
+
 
    nav ul, .hours ul{
    	list-style-type: none;
@@ -106,7 +130,6 @@ nav{
 			text-align: right;
 			top: -20px;
 			padding: 0;
-
 			top:0px;
 			right: 0px;
 			display: block;
@@ -132,10 +155,9 @@ nav{
 	}
 
 	.toggle li:hover{
-		background-color: rgba(0,0,0,0.5)
+		background-color: rgba(0,0,0,0.5);
+		color: yellow;
 	}
-
-
 
 		.icon-hamburger{
 			width: 10%;
@@ -149,14 +171,6 @@ nav{
 			cursor: pointer;
 		}
 
-		.burger{
-			width: 100%;
-			margin: 0;
-			overflow: hidden;
-			background: yellow;
-			padding: 0;
-
-		}
 
 		.l1{
 			background-color: white;
