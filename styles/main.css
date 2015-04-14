@@ -35,7 +35,7 @@ a{
 	color: #faf0e5;
 }
 
-.shang-menu h2{
+.shang-menu h2, .events h2{
 	background-color: rgba(255,255,255,0.3);
 	padding: 10px 0 10px 15px;
 	font-family: 'Risque', 'Open-Sans', sans-serif;
@@ -75,8 +75,33 @@ blockquote{
 	margin: 0;
 }
 
-
 /*Events*/
+.events{
+	background-image: url("../images/events-china.jpg");
+	color: #fff;
+}
+
+.events h3{
+	font-size: 2em;
+	padding: 15px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.events p{
+	padding: 0 15px 15px;
+	margin: 0;
+}
+
+.events .h3-caps{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0 15px;
+	line-height: 1em;
+}
+
+
 
 /*About*/
 
