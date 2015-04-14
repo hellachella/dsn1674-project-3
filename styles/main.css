@@ -82,9 +82,6 @@ blockquote{
 	color: #fff;
 }
 
-.events #weekly{
-	color: yellow;
-}
 
 
 .events h3{
@@ -112,6 +109,18 @@ blockquote{
 	margin: 0;
 	font-weight: 200;
 
+}
+
+.feature-events h3{
+	font-size: 2em;
+	padding: 15px;
+	font-weight: 300;
+	margin: 0;
+}
+
+.events-left{
+	width: 30%;
+	float: left;
 }
 
 
