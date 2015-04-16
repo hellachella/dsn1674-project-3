@@ -84,8 +84,6 @@ blockquote{
 	color: #fff;
 }
 
-
-
 .events h3{
 	font-size: 2em;
 	padding: 15px;
@@ -119,18 +117,59 @@ blockquote{
 	font-weight: 300;
 	margin: 0;
 }
+.events-block{
+	background-color: red;
+	margin-top: 30px;
+	overflow: hidden;
+}
 
 .events-left{
 	width: 30%;
 	float: left;
-	padding-left: 15px;
 	clear: left;
+	margin-left: 15px;
 }
 
+.events-left h2{
+	font-weight: 100;
+	font-size: 6em;
+	line-height: 1em;
+	padding: 0;
+	margin: 0;
+}
 
-h5{
+.events-right{
+	width: 60%;
+	float: left;
+	margin-left: 5%;
+	padding-right: 15px;
+	background-color: yellow;
+}
+
+.events-right h2{
+	background-color: green;
+	padding: 15px;
+}
+
+.events-right p{
+	margin: 0;
+	padding-left: 15px;
+}
+
+.events-block{
+	margin: 15px 0 0 0;
+}
+.events-block h5{
 	font-size: 2em;
 	text-transform: uppercase;
+	margin: 0;
+	font-weight: 100;
+	padding: 0;
+	line-height: 1em;
+}
+
+.events-block h2{
+	padding: 0;
 	margin: 0;
 }
 
