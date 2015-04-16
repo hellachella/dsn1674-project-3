@@ -12,7 +12,6 @@ body{
 	font-size: 1em;
 	margin: 0;
 	padding: 0;
-	background-color: cream;
 }
 
 a{
@@ -22,6 +21,10 @@ a{
 .center{
 	width: 100%;
 	text-align: center;
+}
+
+h2{
+	text-transform: uppercase;
 }
 
 /*Menu*/
@@ -47,8 +50,7 @@ a{
 }
 
 .shang-menu p{
-
-	padding: 15em 15px 15px; 0;
+	padding: 15em 15px 15px 0;
 	margin: 0;
 
 }
@@ -121,7 +123,18 @@ blockquote{
 .events-left{
 	width: 30%;
 	float: left;
+	padding-left: 15px;
+	clear: left;
 }
+
+
+h5{
+	font-size: 2em;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+/*Add media queries to fix positioning issue*/
 
 
 /*About*/
