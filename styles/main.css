@@ -50,7 +50,7 @@ h2{
 }
 
 .shang-menu p{
-	padding: 15em 15px 15px 0;
+	padding: 15px;
 	margin: 0;
 
 }
@@ -118,9 +118,12 @@ blockquote{
 	margin: 0;
 }
 .events-block{
-	background-color: red;
 	margin-top: 30px;
 	overflow: hidden;
+		margin: 15px 0 0 0;
+	border-bottom: 1px solid black;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
 }
 
 .events-left{
@@ -133,22 +136,22 @@ blockquote{
 .events-left h2{
 	font-weight: 100;
 	font-size: 6em;
-	line-height: 1em;
+	line-height: .9em;
 	padding: 0;
 	margin: 0;
 }
 
-.events-right{
+ .events-right{
 	width: 60%;
 	float: left;
 	margin-left: 5%;
 	padding-right: 15px;
-	background-color: yellow;
+
 }
 
-.events-right h2{
-	background-color: green;
-	padding: 15px;
+.events-block .events-right h2{
+
+	padding-left: 15px;
 }
 
 .events-right p{
@@ -156,9 +159,7 @@ blockquote{
 	padding-left: 15px;
 }
 
-.events-block{
-	margin: 15px 0 0 0;
-}
+
 .events-block h5{
 	font-size: 2em;
 	text-transform: uppercase;
