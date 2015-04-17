@@ -38,7 +38,7 @@ h2{
 	color: #faf0e5;
 }
 
-.shang-menu h2, .events h2{
+.shang-menu h2, .events h2, .about h2{
 	background-color: rgba(255,255,255,0.3);
 	padding: 10px 0 10px 15px;
 	font-family: 'Risque', 'Open-Sans', sans-serif;
@@ -50,7 +50,7 @@ h2{
 }
 
 .shang-menu p{
-	padding: 15px;
+	padding: 160px 15px 15px;
 	margin: 0;
 
 }
@@ -222,10 +222,6 @@ blockquote{
 	margin: 0;
 }
 
-.about h2{
-	padding: 0 15px;
-	margin: 0;
-}
 
 .about img{
 	padding: 0;
