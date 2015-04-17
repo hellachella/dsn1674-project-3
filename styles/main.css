@@ -159,6 +159,25 @@ blockquote{
 	padding-left: 15px;
 }
 
+@media screen and (max-width: 300px){
+
+	.events-right{
+		width: 100%;
+		clear: left;
+		padding: 0;
+		margin: 0;
+	}
+
+.events-block .events-right h2{
+	padding-top: 30px;
+}
+
+
+	.events-block h5 {
+		font-size: 1.5em;
+	}
+}
+
 
 .events-block h5{
 	font-size: 2em;
