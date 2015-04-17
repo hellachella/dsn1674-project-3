@@ -120,10 +120,12 @@ blockquote{
 .events-block{
 	margin-top: 30px;
 	overflow: hidden;
-		margin: 15px 0 0 0;
+	margin: 15px 0 0 0;
 	border-bottom: 1px solid black;
 	margin-bottom: 15px;
 	padding-bottom: 15px;
+
+
 }
 
 .events-left{
@@ -131,6 +133,8 @@ blockquote{
 	float: left;
 	clear: left;
 	margin-left: 15px;
+		margin-right: 5%;
+
 }
 
 .events-left h2{
@@ -143,15 +147,16 @@ blockquote{
 
  .events-right{
 	width: 60%;
-	float: left;
-	margin-left: 5%;
+-margin-left: 30%;
 	padding-right: 15px;
-
+	float: left;
 }
+
 
 .events-block .events-right h2{
 
 	padding-left: 15px;
+		color: #ea3123;
 }
 
 .events-right p{
@@ -173,7 +178,7 @@ blockquote{
 }
 
 
-	.events-block h5 {
+.events-block h5 {
 		font-size: 1.5em;
 	}
 }
