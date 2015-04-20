@@ -12,7 +12,22 @@
 
 <style>
 
-  /*Initial CSS for the loading page placed in the head to increase performance*/
+  /*CSS for h1, header, Banner & Hours*/
+
+
+				h1{
+			font-family: 'Risque', "Open-Sans", sans-serif;
+			text-align: center;
+			background-color: #ea3123;
+			margin: 0;
+			display: block;
+			font-size: 3em;
+			line-height: 1.5em;
+			color: white;
+			font-weight: normal;
+		}
+
+
 
 		.banner{
 			background-image: url(images/china-banner.jpg);
@@ -23,7 +38,8 @@
 
 		}
 
-		header h2{
+
+		#tagline{
 			color: white;
 			line-height: 1.5em;
 			padding: 10%;
@@ -38,17 +54,7 @@
 		}
 
 
-		h1{
-			font-family: 'Risque', "Open-Sans", sans-serif;
-			text-align: center;
-			background-color: #ea3123;
-			margin: 0;
-			display: block;
-			font-size: 3em;
-			line-height: 1.5em;
-			color: white;
-			font-weight: normal;
-		}
+
 
 		@media screen and (max-width: 298px){
 
@@ -57,7 +63,7 @@
 				line-height: 2em;
 			}
 
-			header h2{
+			#tagline{
 				font-size: 2em;
 				line-height: 2em;
 				padding-top: 10%;
@@ -76,7 +82,7 @@
 		}
 
 
-   nav ul, .hours ul{
+   .nav-list{
    	list-style-type: none;
    	padding: 0;
    	width: 100%;
@@ -96,7 +102,7 @@
    	margin: 0;
    }
 
-	.hours ul{
+	#hours{
 			text-align: center;
 			line-height:2em;
 			font-weight: 100;
@@ -110,18 +116,18 @@
 		line-height: 1.5em;
 	}
 
-   .smallcaps{
+  .smallcaps{
 		font-variant: small-caps;
 		}
 
-				header{
+	header{
 		position: relative;
 		overflow: hidden;
 		}
 
-nav{
-	display: none;
-}
+	nav{
+		display: none;
+	}
 
 
 	.toggle{
@@ -236,11 +242,13 @@ nav{
 	<h1>The Shanghai</h1>
 
 
+<!--NAVIGATION-->
+
 	<nav id="nav">
 
 		<div class="toggle" id="toggle">
 
-			<ul>
+			<ul class="nav-list">
 				<li><a href="#menu">menu</a></li>
 				<li><a href="#events">Events</a></li>
 				<li><a href="#about">about</a></li>
@@ -253,9 +261,11 @@ nav{
 	</nav>
 
 	<div class="banner" id="banner">
-		<h2>Spread your wings and sing it, baby!</h2><!--text-transform:uppercase-->
+		<h2 id="tagline">Spread your wings and sing it, baby!</h2><!--text-transform:uppercase-->
 	</div><!--banner-->
 </header>
+
+<!--MAIN-->
 
 <main>
 
@@ -266,7 +276,7 @@ nav{
 	 music, weekly events and more.  The beating heart of Ottawa’s Chinatown.
 	</p>
 
-	<ul id="hours">
+	<ul id="hours" class="nav-list">
 		<li>Mon, CLOSED</li>
 		<li>Tues-Wed, 11:30<span class="smallcaps">am</span>-10<span class="smallcaps">pm</span></li>
 		<li>Thurs, 4:30<span class="smallcaps">pm</span>-10<span class="smallcaps">pm</span></li>
@@ -282,7 +292,7 @@ nav{
 <!--MENU-->
 
 <div class="shang-menu" id="menu">
-	<h2>Menu</h2>
+	<h2 class="event-title">Menu</h2>
 
 	<blockquote>“The food is good and not greasy and the smile on the waiter is genuine and not forced.”— Duncan, Customer
 	</blockquote>
@@ -319,7 +329,7 @@ nav{
 <!--EVENTS-->
 
 <div class="events" id="events">
-	<h2>Events</h2>
+	<h2 class="event-title">Events</h2>
 
 	<h3>Weekly</h3>
 	<h3 class="h3-caps">Karaoke</h3>
@@ -383,7 +393,7 @@ nav{
 <div class="about" id="about">
 
 	<div class="about-main">
-		<h2>About</h2>
+		<h2 class="event-title">About</h2>
 		<p>
 		Shanghai Restaurant brings you delicious Chinese and Asian inspired food,
 		hosts provocative events, and displays compelling local artwork  presented
@@ -424,7 +434,7 @@ nav{
 <!--Contact-->
 
 <div class="contact-main" id="contact">
-	<h2>Contact</h2>
+	<h2 class="event-title">Contact</h2>
 
 	<div class="contact-numbers">
 
