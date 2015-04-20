@@ -1,3 +1,8 @@
+@font-face{
+	font-family: "Risque";
+	src: url();
+}
+
 html {
 	box-sizing: border-box;
 }
@@ -38,7 +43,7 @@ h2{
 	color: #faf0e5;
 }
 
-.shang-menu h2, .events h2, .about h2{
+.shang-menu h2, .events h2, .about h2, .contact-main h2{
 	background-color: rgba(255,255,255,0.3);
 	padding: 10px 0 10px 15px;
 	font-family: 'Risque', 'Open-Sans', sans-serif;
@@ -123,7 +128,7 @@ blockquote{
 	padding: 0;
 	overflow: hidden;
 	margin: 15px 0 0 0;
-	border-bottom: 1px solid black;
+
 	padding-bottom: 15px;
 
 
@@ -135,6 +140,7 @@ blockquote{
 	clear: left;
 	margin-left: 15px;
 		margin-right: 5%;
+		text-align: center;
 
 }
 
@@ -232,6 +238,81 @@ blockquote{
 .about a{
 	color: #ee3123;
 }
+
+
+/*Contact & Location*/
+
+.contact-main{
+	background-color: #5472b8;
+	color: #fff;
+}
+
+.contact-numbers{
+overflow: hidden;
+}
+
+.contact-left img{
+width: 80px;
+padding: 15px;
+float: left;
+}
+
+.contact-left{
+	clear: left;
+}
+
+.contact-main p{
+
+		float: left;
+		padding: 1em 0;
+		font-size: .9em;
+		width: 60%;
+	}
+
+
+		@media screen and (max-width: 315px){
+			.contact-main img{
+				display: none;
+			}
+
+			.contact-main p{
+				width: 100%;
+				padding-right: 15px;
+				padding: 0
+				;
+				font-size: 1em;
+			}
+
+			.contact-left p{
+				text-align: center;
+			}
+
+			#hide{
+				display: none;
+			}
+		}
+
+#map{
+	width: 100%;
+	display: block;
+}
+
+
+#street-address{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+
+}
+
+.contact-info p{
+	padding: 15px;
+	width: 100%;
+	margin: 0;
+}
+
+
+
 /*Footer*/
 
 
