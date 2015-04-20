@@ -28,6 +28,7 @@ a{
 	text-align: center;
 }
 
+
 h2{
 	text-transform: uppercase;
 }
@@ -40,16 +41,17 @@ h2{
 
 .arrowtop{
 	width: 40px;
-	margin: 0 auto;
 	display: block;
-	position: relative;
-	left: 120px;
-	bottom: 4em;
+
+	float: right;
+	margin: 30px 15px 0 15px;
+
+
 }
 
 
 .event-title{
-	background-color: rgba(255,255,255,0.3);
+
 	padding: 10px 0 10px 15px;
 	font-family: 'Risque', sans-serif;
 	margin: 0;
@@ -57,7 +59,14 @@ h2{
 	line-height: 1.5em;
 	font-size: 3em;
 	font-weight: normal;
-	position: relative;
+	float: left;
+}
+
+.event-header{
+	width: 100%;
+	background-color: rgba(255,255,255,0.3);
+
+
 }
 
 
@@ -76,11 +85,13 @@ h2{
 .shang-menu p{
 	padding: 160px 15px 15px;
 	margin: 0;
+	clear: left;
 
 }
 
 blockquote{
 	font-style: oblique;
+	clear: left;
 }
 
 .takeout-and-delivery{
@@ -116,6 +127,7 @@ blockquote{
 	padding: 15px;
 	font-weight: 300;
 	margin: 0;
+	clear: left;
 
 }
 
