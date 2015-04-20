@@ -278,8 +278,7 @@ float: left;
 			.contact-main p{
 				width: 100%;
 				padding-right: 15px;
-				padding: 0
-				;
+				padding: 0;
 				font-size: 1em;
 			}
 
@@ -316,6 +315,49 @@ float: left;
 /*Footer*/
 
 
+footer{
+	background: #232021;
+	overflow: hidden;
+}
 
+.footer-main{
+	overflow: hidden;
+	padding: 15px 0;
+
+}
+
+footer a{
+	color: #fff;
+	width: 60%;
+	float: left;
+	padding: 15px 0 0 15px;
+
+
+}
+
+.footer-left{
+	width: 70%;
+
+}
+
+.footer-right{
+width: 50%;
+padding: 0 15px;
+
+float: right;
+overflow: hidden;
+
+}
+
+#tweet{
+	margin-left: 15px;
+}
+
+footer img{
+	float: right;
+	max-width: 60px;
+	margin: 0;
+
+}
 
 /*Images taken from Flikr, and are licensed for free, creative use */
