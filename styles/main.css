@@ -82,7 +82,7 @@ h2{
 
 
 		.banner{
-			background-image: url(images/china-banner.jpg);
+			background-image: url(../images/china-banner.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			display: block;
@@ -244,7 +244,7 @@ h2{
 			width: 100%;
 			height: 450px;
 			float: right;
-			background-image: url(images/china-banner.jpg);
+			background-image: url(../images/china-banner.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			left: 300px;
@@ -366,12 +366,16 @@ blockquote{
 
 }
 
+.feature-events{
+		background: #faf0e5;
+}
+
 .feature-events h3{
 	font-size: 2em;
 	padding: 15px;
 	font-weight: 300;
 	margin: 0;
-	background-color: rgba(250, 240, 229, 0.8);
+
 
 }
 .events-block{
@@ -380,18 +384,16 @@ blockquote{
 	overflow: hidden;
 	margin:  0 0 0;
 	background: #faf0e5;
-
-
-
 }
 
 .events-left{
 	width: 30%;
 	float: left;
+	position: static;
 	clear: left;
-	margin-left: 15px;
-	margin-right: 5%;
-	text-align: center;
+	margin-left: 0px;
+	padding: 0 0 0 15px;
+	text-align: left;
 
 
 }
@@ -415,14 +417,19 @@ blockquote{
 
 
 .events-block .events-right h2{
-
 	padding-left: 15px;
-		color: #ea3123;
+	color: #ea3123;
 }
 
 .events-right p{
 	margin: 0;
 	padding-left: 15px;
+}
+
+.splitter{
+	background-color: red;
+	padding: 1px;
+	width: 150px
 }
 
 @media screen and (max-width: 300px){
