@@ -1,4 +1,3 @@
-
 html {
 	box-sizing: border-box;
 }
@@ -38,13 +37,9 @@ h2{
 .arrowtop{
 	width: 40px;
 	display: block;
-
 	float: right;
 	margin: 30px 15px 0 15px;
-
-
 }
-
 
 .event-header{
 	width: 100%;
@@ -61,15 +56,232 @@ h2{
 	font-size: 3em;
 	font-weight: normal;
 	float: left;
-	background-color: rgba(255,255,255,0.3);
+
 }
 
 .event-header{
 	width: 100%;
 	background-color: rgba(255,255,255,0.3);
 
-
 }
+
+
+
+				h1{
+			font-family: 'Risque', "Open-Sans", sans-serif;
+			text-align: center;
+			background-color: #ea3123;
+			margin: 0;
+			display: block;
+			font-size: 2.5em;
+			line-height: 1.5em;
+			color: white;
+			font-weight: normal;
+		}
+
+
+
+		.banner{
+			background-image: url(images/china-banner.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: block;
+			height: 450px;
+		}
+
+
+		#tagline{
+			color: white;
+			line-height: 1.5em;
+			padding: 10%;
+			padding-top: 5%;
+			width: 100%;
+			text-align: center;
+			height: 348px;
+			font-size:3em;
+			font-weight: 500;
+			text-transform: uppercase;
+			display: inline-block;
+		}
+
+
+
+		/*Hamburger Icon*/
+
+		.icon-hamburger{
+			width: 10%;
+			float: right;
+			padding: 3px;
+			margin: 5px;
+			margin-right: 20px;
+		}
+
+		.icon-hamburger:hover{
+			cursor: pointer;
+		}
+
+
+		.l1{
+			background-color: white;
+			min-width: 30px;
+			max-width: 45px;
+			height: 4px;
+			margin: 6px auto;
+			border-radius: 10px;
+			margin-top: 10px;
+
+		}
+
+		.l2{
+			background-color: white;
+			min-width: 30px;
+			max-width: 45px;
+			height: 4px;
+			margin: 6px auto;
+			border-radius: 10px;
+		}
+
+		.l3{
+			background-color: white;
+			min-width: 30px;
+			max-width: 45px;
+			height: 4px;
+			margin: 6px auto;
+			border-radius: 10px
+		}
+
+
+
+		@media screen and (max-width: 298px){
+
+			h1{
+				font-size: 1.5em;
+				line-height: 2em;
+			}
+
+			#tagline{
+				font-size: 2em;
+				line-height: 2em;
+				padding-top: 10%;
+			}
+
+			header{
+				overflow: hidden;
+				position: relative;
+
+			}
+
+			.icon-hamburger{
+				position: absolute;
+
+				right: 0;
+				top: 2.5em;
+
+			}
+
+		}
+
+
+
+
+   .nav-list{
+   	list-style-type: none;
+   	padding: 0;
+   	width: 100%;
+   }
+
+   .hours{
+   	margin: 0;
+   	line-height: 1.5em;
+   	background-color: #faf0e5;
+   	margin:0;
+   	display: inline-block;
+   	width: 100%;
+   }
+
+   .hours p{
+   	padding: 15px;
+   	margin: 0;
+   	font-weight: normal;
+   }
+
+	#hours{
+			text-align: center;
+			line-height:2em;
+			font-weight: 100;
+			padding: 30px;
+	}
+
+	#hours p{
+		text-align: left;
+		padding: 0;
+		margin: 0;
+	}
+
+	.address{
+		width: 100%;
+		text-align: center;
+		font-size: 1.2em;
+		line-height: 1.5em;
+	}
+
+  .smallcaps{
+		font-variant: small-caps;
+		}
+
+	header{
+		position: relative;
+		overflow: hidden;
+		}
+
+	nav{
+		display: none;
+	}
+
+/*TOGGLE*/
+
+	.toggle{
+			width: 100%;
+			height: 450px;
+			float: right;
+			background-image: url(images/china-banner.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			left: 300px;
+			color: #FAF0E5;
+			text-transform: uppercase;
+			text-align: right;
+			top: -20px;
+			padding: 0;
+			top:0px;
+			right: 0px;
+			display: block;
+	}
+
+	.toggle li{
+		font-size: 2em;
+		line-height: 1.5em;
+		padding: 5px 10%;
+		width: 100%;
+		margin-top:10px;
+		text-align: center;
+	}
+
+	.toggle a{
+		color: #FAF0E5;
+		text-decoration: none;
+	}
+
+	.toggle ul{
+		width: 100%;
+		margin: 0;
+	}
+
+	.toggle li:hover{
+		background-color: rgba(0,0,0,0.5);
+		color: yellow;
+	}
+
 
 
 /*Menu*/
@@ -268,6 +480,7 @@ blockquote{
 .about p{
 	padding: 15px;
 	margin: 0;
+	clear: right;
 }
 
 
