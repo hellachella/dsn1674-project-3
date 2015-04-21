@@ -30,8 +30,16 @@ h2 {
     width: 40px;
     display: block;
     float: right;
-    margin: 30px 15px 0 15px;
+    margin: 15px 15px 0 15px;
+
 }
+
+.section-header{
+    background: rgba(255,255,255,0.3);
+    overflow: hidden;
+
+}
+
 .event-header {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.3);
@@ -41,10 +49,11 @@ h2 {
     font-family: 'Risque', sans-serif;
     margin: 0;
     color: #fff;
-    line-height: 1.5em;
+    line-height: 1em;
     font-size: 3em;
     font-weight: normal;
     float: left;
+
 }
 .event-header {
     width: 100%;
@@ -81,6 +90,7 @@ h1 {
     text-transform: uppercase;
     display: inline-block;
 }
+
 /*Hamburger Icon*/
 
 .icon-hamburger {
@@ -183,6 +193,8 @@ header {
 nav {
     display: none;
 }
+
+
 /*TOGGLE*/
 
 .toggle {
@@ -226,7 +238,8 @@ nav {
 
 .shang-menu {
     background-image: url("../images/food.jpg");
-    background-size: 100% auto;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0;
     display: block;
     color: #fff;
@@ -249,12 +262,17 @@ blockquote {
     margin: 0;
     padding-top: 1em;
 }
+#menu-number{
+    padding-bottom: 15px;
+}
 .takeout-and-delivery a {
     color: #f7992e;
 }
 .takeout-and-delivery p {
     margin: 0;
 }
+
+
 /*Events*/
 
 
@@ -464,7 +482,7 @@ footer {
     overflow: hidden;
     padding: 15px 0;
 }
-footer a {
+#return {
     color: #faf0e5;
     width: 60%;
     float: left;
@@ -487,4 +505,6 @@ footer img {
     max-width: 60px;
     margin: 0;
 }
+
+
 /*Images taken from Flikr, and are licensed for free, creative use */
