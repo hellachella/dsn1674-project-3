@@ -61,6 +61,8 @@ margin:0;
 padding:10px 0 10px 15px;
 }
 
+/*main page*/
+
 h1 {
 font-family:Risque, Open-Sans, sans-serif;
 text-align:center;
@@ -128,8 +130,6 @@ list-style-type:none;
 width:100%;
 padding:0;
 }
-
-/*main page*/
 
 .hours {
 line-height:1.5em;
