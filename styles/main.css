@@ -275,7 +275,10 @@ blockquote {
 
 /*Events*/
 
+#weekly{
 
+    padding: 15px 0 0 15px;
+}
 
 .events {
     background-color: black;
@@ -351,7 +354,7 @@ blockquote {
     padding-left: 15px;
 }
 .splitter {
-    background-color: red;
+    background-color: #ea3123;
     padding: 1px;
     width: 275px
 }
@@ -411,12 +414,13 @@ blockquote {
 
 .about a{
 	color: #ee3123;
-}*/
+}
 
 .about p {
     float: left;
     padding: 0 15px;
-}
+}*/
+
 /*Contact & Location*/
 
 .contact-main {
@@ -426,6 +430,7 @@ blockquote {
 .contact-numbers {
     overflow: hidden;
     clear: both;
+    font-size: 1em;
 }
 .contact-left img {
     width: 80px;
