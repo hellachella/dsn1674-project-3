@@ -409,6 +409,8 @@ padding:1em 0;
 #map {
 width:100%;
 display:block;
+clear: both;
+
 }
 
 #street-address {
