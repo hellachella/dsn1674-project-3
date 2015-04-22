@@ -465,7 +465,7 @@ margin:0;
 
 /*Media Queries*/
 
-@media screen and max-width 298px{
+@media screen and (max-width: 298px){
     h1 {
     font-size:1.5em;
     line-height:2em;
@@ -489,7 +489,7 @@ margin:0;
     }
 }
 
-@media screen and max-width 300px{
+@media screen and (max-width: 300px){
     .events-right {
     width:100%;
     clear:left;
@@ -506,7 +506,7 @@ margin:0;
     }
 }
 
-@media screen and max-width 315px{
+@media screen and (max-width: 315px){
     .contact-main p {
     width:100%;
     font-size:1em;
