@@ -231,12 +231,13 @@ margin:0;
 .shang-menu p {
 clear:left;
 margin:0;
-padding:160px 15px 15px;
+padding:15px;
 }
 
 blockquote {
 font-style:oblique;
 clear:left;
+font-weight: 100;
 }
 
 .takeout-and-delivery {
